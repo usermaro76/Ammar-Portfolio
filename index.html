@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Mohamed | Elite IT Engineer & Cybersecurity Expert</title>
+    <meta name="description" content="Ammar Mohamed - Senior IT Engineer | CEO at Armor IT Engineering | Network Architect | Alexandria, Egypt">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/201278548269" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-user-astronaut gradient-icon"></i>
+                <span class="name">AMMAR</span><span class="surname">MOHAMED</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#expertise" class="nav-link"><i class="fas fa-star"></i> Expertise</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            
+            <a href="https://wa.me/201278548269" target="_blank" class="btn btn-whatsapp desktop-only">
+                <i class="fab fa-whatsapp"></i> Chat Now
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section hero-section">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        
+        <div class="container hero-content-wrapper">
+            <div class="hero-text" data-aos="fade-right">
+                <div class="status-badge">
+                    <span class="badge-dot"></span>
+                    <span>Available for New Projects</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    I'm Ammar <span class="gradient-text">Mohamed</span>
+                </h1>
+                
+                <div class="role-typewriter">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                
+                <p class="hero-description">
+                    Senior IT Engineer & Solutions Architect transforming businesses through 
+                    intelligent infrastructure, cybersecurity excellence, and cutting-edge technology solutions.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg pulse-animation">
+                        <i class="fas fa-paper-plane"></i> Hire Me Now
+                    </a>
+                    <a href="https://www.linkedin.com/in/engineermaro76" target="_blank" class="btn btn-outline btn-lg">
+                        <i class="fab fa-linkedin"></i> LinkedIn Profile
+                    </a>
+                </div>
+                
+                <div class="trust-indicators">
+                    <div class="indicator-item" data-aos="zoom-in">
+                        <i class="fas fa-certificate gold"></i>
+                        <span>Cisco Certified</span>
+                    </div>
+                    <div class="indicator-item" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fas fa-shield-alt silver"></i>
+                        <span>Cybersecurity Pro</span>
+                    </div>
+                    <div class="indicator-item" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-building bronze"></i>
+                        <span>Founder @ Armor IT</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="profile-frame">
+                    <div class="profile-icon-wrapper">
+                        <i class="fas fa-user-astronaut mega-icon"></i>
+                    </div>
+                    <div class="hologram-ring ring-1"></div>
+                    <div class="hologram-ring ring-2"></div>
+                    
+                    <div class="floating-tech-badges">
+                        <div class="tech-badge badge-1"><i class="fas fa-network-wired"></i> Cisco</div>
+                        <div class="tech-badge badge-2"><i class="fas fa-lock"></i> Security</div>
+                        <div class="tech-badge badge-3"><i class="fas fa-brain"></i> AI</div>
+                        <div class="tech-badge badge-4"><i class="fab fa-aws"></i> Cloud</div>
+                    </div>
+                    
+                    <div class="profile-stats">
+                        <div class="ps-item">
+                            <span class="count-number animated-counter" data-target="7">0</span><span>+</span>
+                            <span class="ps-label">Years Exp</span>
+                        </div>
+                        <div class="ps-item">
+                            <span class="count-number animated-counter" data-target="150">0</span><span>+</span>
+                            <span class="ps-label">Projects</span>
+                        </div>
+                        <div class="ps-item">
+                            <span class="count-number animated-counter" data-target="99">0</span><span>%</span>
+                            <span class="ps-label">Success</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse-scroll">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-user-circle"></i> About <span class="gradient-text">Me</span>
+            </h2>
+            
+            <div class="about-grid">
+                <div class="about-sidebar" data-aos="fade-right">
+                    <div class="profile-card-horizontal">
+                        <div class="pc-icon-large">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <h3>Ammar Mohamed</h3>
+                        <p class="job-title">Senior IT Engineer & Solutions Architect</p>
+                        <div class="location-tag">
+                            <i class="fas fa-map-marker-alt"></i> Alexandria, Egypt
+                        </div>
+                        
+                        <div class="company-highlight">
+                            <i class="fas fa-flag-checkered highlight-icon"></i>
+                            <div class="ch-content">
+                                <strong>Founder & CEO</strong>
+                                <span>Armor IT Engineering</span>
+                            </div>
+                        </div>
+                        
+                        <div class="social-icons-row">
+                            <a href="https://www.linkedin.com/in/engineermaro76" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/usermaro76" target="_blank" class="social-btn github"><i class="fab fa-github"></i></a>
+                            <a href="https://wa.me/201278548269" target="_blank" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024 - Present</div>
+                            <div class="timeline-content">
+                                <strong>Founder & CEO</strong>
+                                <span>Armor IT Engineering</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2017 - Present</div>
+                            <div class="timeline-content">
+                                <strong>Senior IT Engineer</strong>
+                                <span>Multiple Industries</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-main" data-aos="fade-left">
+                    <div class="story-block featured">
+                        <div class="sb-header">
+                            <i class="fas fa-lightbulb sb-icon"></i>
+                            <h3>Visionary Technical Leader</h3>
+                        </div>
+                        <p>Seven years of combining academic knowledge in Computer Science & AI with hands-on IT engineering experience. This unique position allows me to bridge traditional infrastructure with next-generation intelligent solutions.</p>
+                    </div>
+                    
+                    <div class="story-block">
+                        <div class="sb-header">
+                            <i class="fas fa-network-wired sb-icon"></i>
+                            <h3>Network Infrastructure Expert</h3>
+                        </div>
+                        <p>Designing enterprise-grade network architectures using Cisco systems and industry best practices across telecommunications, manufacturing, and security sectors.</p>
+                    </div>
+                    
+                    <div class="story-block">
+                        <div class="sb-header">
+                            <i class="fas fa-shield-virus sb-icon"></i>
+                            <h3>Cybersecurity Champion</h3>
+                        </div>
+                        <p>Protecting digital assets through advanced security protocols, threat detection, firewalls, and proactive risk management strategies.</p>
+                    </div>
+                    
+                    <div class="certifications-grid">
+                        <div class="cert-item" data-aos="zoom-in">
+                            <i class="fas fa-certificate"></i>
+                            <span>Cisco CCNA</span>
+                        </div>
+                        <div class="cert-item" data-aos="zoom-in" data-aos-delay="50">
+                            <i class="fas fa-check-circle"></i>
+                            <span>ITIL Foundation</span>
+                        </div>
+                        <div class="cert-item" data-aos="zoom-in" data-aos-delay="100">
+                            <i class="fas fa-user-shield"></i>
+                            <span>Cybersecurity</span>
+                        </div>
+                        <div class="cert-item" data-aos="zoom-in" data-aos-delay="150">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS Cloud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section expertise-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-chess-knight"></i> Technical <span class="gradient-text">Expertise</span>
+            </h2>
+            
+            <div class="tab-nav">
+                <button class="tab-btn active" data-tab="networking"><i class="fas fa-network-wired"></i> Networking</button>
+                <button class="tab-btn" data-tab="security"><i class="fas fa-shield-alt"></i> Security</button>
+                <button class="tab-btn" data-tab="cloud"><i class="fas fa-cloud"></i> Cloud</button>
+                <button class="tab-btn" data-tab="ai"><i class="fas fa-brain"></i> AI & Dev</button>
+            </div>
+            
+            <div class="tab-panels">
+                <div class="tab-panel active" id="networking">
+                    <div class="skills-matrix">
+                        <div class="skill-card large" data-aos="fade-up">
+                            <div class="sk-icon cisco"><i class="fas fa-network-wired"></i></div>
+                            <div class="sk-details">
+                                <h4>Cisco Networks</h4>
+                                <p>Routing, Switching, VLANs, OSPF, BGP</p>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 95%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="50">
+                            <div class="sk-icon windows"><i class="fab fa-windows"></i></div>
+                            <div class="sk-details">
+                                <h4>Windows Server</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 90%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="sk-icon linux"><i class="fab fa-linux"></i></div>
+                            <div class="sk-details">
+                                <h4>Linux Admin</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 88%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="150">
+                            <div class="sk-icon voip"><i class="fas fa-phone-volume"></i></div>
+                            <div class="sk-details">
+                                <h4>VoIP Systems</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 88%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-panel" id="security">
+                    <div class="skills-matrix">
+                        <div class="skill-card large" data-aos="fade-up">
+                            <div class="sk-icon security"><i class="fas fa-shield-virus"></i></div>
+                            <div class="sk-details">
+                                <h4>Cybersecurity</h4>
+                                <p>Firewalls, Threat Detection, Penetration Testing</p>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 92%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="50">
+                            <div class="sk-icon firewall"><i class="fas fa-lock"></i></div>
+                            <div class="sk-details">
+                                <h4>Firewall Management</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 90%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="sk-icon dr"><i class="fas fa-history"></i></div>
+                            <div class="sk-details">
+                                <h4>Disaster Recovery</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 88%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-panel" id="cloud">
+                    <div class="skills-matrix">
+                        <div class="skill-card large" data-aos="fade-up">
+                            <div class="sk-icon cloud"><i class="fas fa-cloud"></i></div>
+                            <div class="sk-details">
+                                <h4>Cloud Infrastructure</h4>
+                                <p>AWS RDS, Hybrid Cloud, Migration</p>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 85%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="50">
+                            <div class="sk-icon backup"><i class="fas fa-database"></i></div>
+                            <div class="sk-details">
+                                <h4>Backup Solutions</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-panel" id="ai">
+                    <div class="skills-matrix">
+                        <div class="skill-card large" data-aos="fade-up">
+                            <div class="sk-icon ai"><i class="fas fa-brain"></i></div>
+                            <div class="sk-details">
+                                <h4>Machine Learning & AI</h4>
+                                <p>Python, Neural Networks, Predictive Analytics</p>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 78%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="50">
+                            <div class="sk-icon python"><i class="fab fa-python"></i></div>
+                            <div class="sk-details">
+                                <h4>Python Development</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 80%"></div></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="sk-icon auto"><i class="fas fa-cogs"></i></div>
+                            <div class="sk-details">
+                                <h4>Process Automation</h4>
+                                <div class="sk-progress"><div class="progress-fill" style="--level: 82%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-hammer"></i> Professional <span class="gradient-text">Services</span>
+            </h2>
+            
+            <div class="services-cards">
+                <div class="service-card premium" data-aos="flip-left">
+                    <div class="sc-header">
+                        <i class="fas fa-network-wired sc-icon"></i>
+                        <div class="sc-tag">Popular</div>
+                    </div>
+                    <h3>Network Architecture</h3>
+                    <p>Enterprise-grade network design, implementation, and optimization.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cisco Routing & Switching</li>
+                        <li><i class="fas fa-check"></i> LAN/WAN Design</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                    </ul>
+                    <a href="#contact" class="sc-button">Get Quote <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="sc-header">
+                        <i class="fas fa-shield-virus sc-icon"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>End-to-end security solutions protecting your digital assets.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Threat Assessment</li>
+                        <li><i class="fas fa-check"></i> Firewall Configuration</li>
+                        <li><i class="fas fa-check"></i> Security Audits</li>
+                    </ul>
+                    <a href="#contact" class="sc-button">Get Quote <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="sc-header">
+                        <i class="fas fa-brain sc-icon"></i>
+                    </div>
+                    <h3>AI & Automation</h3>
+                    <p>Leverage machine learning to automate processes and gain advantage.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Process Automation</li>
+                        <li><i class="fas fa-check"></i> Predictive Analytics</li>
+                        <li><i class="fas fa-check"></i> Custom ML Models</li>
+                    </ul>
+                    <a href="#contact" class="sc-button">Get Quote <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-project-diagram"></i> Featured <span class="gradient-text">Projects</span>
+            </h2>
+            
+            <div class="projects-layout">
+                <div class="project-card horizontal featured-project" data-aos="fade-right">
+                    <div class="pc-image-placeholder">
+                        <div class="icon-stack">
+                            <i class="fas fa-network-wired main-icon"></i>
+                            <i class="fas fa-shield-virus sub-icon rotating"></i>
+                        </div>
+                    </div>
+                    <div class="pc-content">
+                        <div class="pc-meta">
+                            <span class="category">Telecommunications</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <h3>Enterprise Network Transformation</h3>
+                        <p>Complete infrastructure overhaul serving 5000+ users across 12 locations. Achieved 99.99% uptime and reduced costs by 45%.</p>
+                        <div class="pc-results">
+                            <div class="result-item">
+                                <span class="value">99.99%</span>
+                                <span class="label">Uptime</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="value">45%</span>
+                                <span class="label">Cost Reduction</span>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/engineermaro76" target="_blank" class="pc-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-grid">
+                    <div class="project-card vertical" data-aos="fade-up">
+                        <div class="pc-image-placeholder">
+                            <div class="icon-stack">
+                                <i class="fas fa-lock main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="pc-content">
+                            <span class="category">Manufacturing</span>
+                            <h3>Industrial Security Systems</h3>
+                            <p>Integrated fire alarm, CCTV, and access control system.</p>
+                            <div class="pc-tags">
+                                <span>Low Voltage</span>
+                                <span>Fire Alarm</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pc-image-placeholder">
+                            <div class="icon-stack">
+                                <i class="fas fa-robot main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="pc-content">
+                            <span class="category">Healthcare</span>
+                            <h3>AI Predictive Maintenance</h3>
+                            <p>ML system for equipment monitoring, reducing downtime.</p>
+                            <div class="pc-tags">
+                                <span>AI/ML</span>
+                                <span>Predictive</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card vertical" data-aos="fade-up" data-aos-delay="200">
+                        <div class="pc-image-placeholder">
+                            <div class="icon-stack">
+                                <i class="fas fa-cloud main-icon"></i>
+                            </div>
+                        </div>
+                        <div class="pc-content">
+                            <span class="category">Finance</span>
+                            <h3>Cloud Migration Project</h3>
+                            <p>Migrated 500+ servers to AWS with zero downtime.</p>
+                            <div class="pc-tags">
+                                <span>AWS</span>
+                                <span>Migration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <i class="fas fa-envelope-open-text"></i> Get in <span class="gradient-text">Touch</span>
+            </h2>
+            
+            <div class="contact-layout">
+                <div class="contact-info-box" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    <p>I respond within 2 hours during business days. Multiple ways to reach me below:</p>
+                    
+                    <div class="contact-methods">
+                        <a href="https://wa.me/201278548269" target="_blank" class="cm-item whatsapp-cm">
+                            <div class="cm-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="cm-details">
+                                <span class="cm-label">WhatsApp (Business)</span>
+                                <span class="cm-value">+20 127 854 8269</span>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:+201017029801" class="cm-item phone-cm">
+                            <div class="cm-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="cm-details">
+                                <span class="cm-label">Direct Line</span>
+                                <span class="cm-value">+20 101 702 9801</span>
+                            </div>
+                        </a>
+                        
+                        <a href="mailto:ammar@armor-it.com" class="cm-item email-cm">
+                            <div class="cm-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="cm-details">
+                                <span class="cm-label">Email Address</span>
+                                <span class="cm-value">ammar@armor-it.com</span>
+                            </div>
+                        </a>
+                        
+                        <div class="cm-item location-cm">
+                            <div class="cm-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="cm-details">
+                                <span class="cm-label">Office Location</span>
+                                <span class="cm-value">Alexandria, Egypt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form id="contactForm" class="contact-form" data-aos="fade-left">
+                    <div class="input-group">
+                        <label for="name"><i class="fas fa-user"></i> Full Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="phone"><i class="fas fa-phone"></i> Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+20 XXX XXX XXXX">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    
+                    <div class="input-group full-width">
+                        <label for="message"><i class="fas fa-comment-alt"></i> Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Describe your project or requirements..."></textarea>
+                    </div>
+                    
+                    <button type="submit" id="submitBtn" class="btn btn-primary btn-full btn-lg">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-user-astronaut gradient-icon"></i>
+                        <span>Ammar <span class="gradient-text">Mohamed</span></span>
+                    </div>
+                    <p>Senior IT Engineer & Technology Innovator</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Quick Contact</h4>
+                    <div class="footer-contact-items">
+                        <a href="tel:+201278548269" class="fc-item">
+                            <i class="fab fa-whatsapp"></i> 127 854 8269
+                        </a>
+                        <a href="tel:+201017029801" class="fc-item">
+                            <i class="fas fa-phone"></i> 101 702 9801
+                        </a>
+                    </div>
+                    <div class="location-footer">
+                        <i class="fas fa-map-marker-alt"></i> Alexandria, Egypt 🇪🇬
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; <span id="year">2025</span> Engineer Ammar Mohamed. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top Button -->
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
